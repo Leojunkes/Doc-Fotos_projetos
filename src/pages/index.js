@@ -33,7 +33,7 @@ export default function Fotos() {
       justifyContent="center"
       alignItems="center"
     >
-      <Text fontSize="22px" position='absolute' left='2'top='11rem'><b>Fotos Documentos Leo</b></Text>
+      <Text fontSize="22px" position='absolute' left='2'top='11rem'><b>Fotos Documentos Leonardo</b></Text>
       <Flex>
         {property.map((property, key) => (
           <Box
@@ -94,6 +94,7 @@ export default function Fotos() {
           <img key={key} style={{ width: '10rem' }} src={f.imagem} alt="leo" />
         ))} */}
       </Flex>
+      
     </Flex>
   );
 }
