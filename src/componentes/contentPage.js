@@ -1,6 +1,10 @@
 import { documentos } from '../componentes/propertyTest.js';
 import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
-import { fotosGall } from '../componentes/gallStore.js';
+import {
+  fotosGall,
+  fotosAlmofadas,
+  fotosAlmofadas1,
+} from '../componentes/gallStore.js';
 
 import {
   useDisclosure,
@@ -12,6 +16,8 @@ import {
   ModalBody,
   ModalCloseButton,
 } from '@chakra-ui/react';
+
+import { Grid, GridItem } from '@chakra-ui/react';
 
 import {
   Box,
@@ -31,11 +37,13 @@ export function Fotos() {
   const [buscar, setBuscar] = useState('');
   const { isOpen, onClose, onOpen } = useDisclosure();
   const length = documentos.length;
+  const totalAl = fotosAlmofadas.length;
+  const totalAl1 = fotosAlmofadas1.length;
+  console.log(totalAl);
+  console.log(fotosAlmofadas);
 
   // const dados = documentos1.filter((d) => d.startsWith(buscar));
   // const dados1 = documentos.filter((f) => f.startsWith(buscar));
-  console.log(length);
-  console.log(buscar);
 
   function handleRightArrow() {
     let x = scrollx - Math.round(window.innerWidth / 2);
@@ -68,42 +76,10 @@ export function Fotos() {
   //}
 
   return (
-    <Flex
-      flexDirection="column"
-
-      // justifyContent="center"
-      // alignItems="center"
-    >
-      <Text fontSize="22px">
+    <div>
+      <Text fontSize="1.3rem">
         <b>Documentos Leonardo</b>
       </Text>
-      {/* <Input
-        value={buscar}
-        type="text"
-        onChange={(ev) => setBuscar(ev.target.value)}
-      /> */}
-
-      {/* {documentos.map((d, index) => (
-        <Modal key={index} isOpen={isOpen} onClose={onClose}>
-          <ModalOverlay />
-          <ModalContent>
-            <ModalHeader>{d.title}</ModalHeader>
-            <ModalHeader>{d.id}</ModalHeader>
-            <ModalCloseButton />
-            <ModalBody>
-              <Text>
-                Ola sou gay e adoro ser gay, pois ser gay é muito bom !!!
-              </Text>
-            </ModalBody>
-
-            <ModalFooter>
-              <Button colorScheme="blue" mr={3} onClick={onClose}>
-                Close
-              </Button>
-            </ModalFooter>
-          </ModalContent>
-        </Modal>
-      ))} */}
 
       <Flex m="auto" w="100%" className="listArea" overflowX="hidden">
         <Button
@@ -157,33 +133,11 @@ export function Fotos() {
         </Flex>
       </Flex>
       <Text fontSize="22px">
-        <Text mt='100px'>
+        <Text mt="100px">
           <b>Fotos Gall | Store</b>
         </Text>
         <Flex mt="15px" w="100%" className="listArea" overflowX="hidden">
-          <Button
-            overflow="hidden"
-            opacity="0.9"
-            position="absolute"
-            w="2.5rem"
-            left="0"
-            onClick={handleLeftArrow}
-            mt="-4px"
-          >
-            <AiFillLeftCircle fontSize="20rem" />
-          </Button>
-          <Button
-            overflow="hidden"
-            opacity="0.9"
-            right="0"
-            position="absolute"
-            width="2.5rem"
-            onClick={handleRightArrow}
-            mt="-4px"
-          >
-            <AiFillRightCircle fontSize="20rem" />
-          </Button>
-          <Flex transition="all ease 0.5s" ml={scrollx} className="list">
+          <Flex className="list">
             {fotosGall.map((d, index) => (
               <Box key={index} maxW="100vh" borderWidth="1px" borderRadius="lg">
                 <Flex w="150px" display="inline-block" className="item">
@@ -209,30 +163,64 @@ export function Fotos() {
           </Flex>
         </Flex>
       </Text>
-      <Flex>
-        {/* {property.map((property, key) => ( */}
-        <Box key="" maxW="sm" borderWidth="1px" borderRadius="lg">
-          <Box p="6">
-            <Box display="flex" alignItems="baseline"></Box>
+      <Text mt="20px" fontSize="1.5rem" fontWeight="bold">
+        Fotos Gall | Store | Almofadas | Total {totalAl}
+      </Text>
+      <div mt="15px" w="100%" className="listArea" overflowX="hidden">
+        <Grid templateColumns="repeat(5,1fr)" className="list">
+          {fotosAlmofadas.map((d, index) => (
+            <Box key={index} maxW="100vh" borderWidth="1px" borderRadius="lg">
+              <Flex w="16rem" display="inline-block" className="item">
+                {/* {index === current && ( */}
+                <Image
+                  transition="all ease 0.2s"
+                  _hover={{ transform: 'scale(1)' }}
+                  transform="scale(0.9)"
+                  w="100%"
+                  src={d.imagem}
+                  alt={d.imagem}
+                />
+                {/* )} */}
+              </Flex>
 
-            <Box
-              mt="1"
-              fontWeight="semibold"
-              as="h4"
-              lineHeight="tight"
-              isTruncated
-            ></Box>
+              <Box p="6">
+                <Box display="flex" alignItems="baseline"></Box>
 
-            <Box>
-              <Box as="span" color="gray.600" fontSize="sm"></Box>
+                <Box>{d.title}</Box>
+              </Box>
             </Box>
+          ))}
+        </Grid>
+      </div>
+      <Text mt="20px" fontSize="1.5rem" fontWeight="bold">
+        Fotos Gall | Store | Almofadas 1 | Total {totalAl1}
+      </Text>
+      <div mt="15px" w="100%" className="listArea" overflowX="hidden">
+        <Grid templateColumns="repeat(5,1fr)" className="list">
+          {fotosAlmofadas1.map((d, index) => (
+            <Box key={index} maxW="100vh" borderWidth="1px" borderRadius="lg">
+              <Flex w="16rem" display="inline-block" className="item">
+                {/* {index === current && ( */}
+                <Image
+                  transition="all ease 0.2s"
+                  _hover={{ transform: 'scale(1)' }}
+                  transform="scale(0.9)"
+                  w="100%"
+                  src={d.imagem}
+                  alt={d.imagem}
+                />
+                {/* )} */}
+              </Flex>
 
-            <Box display="flex" mt="2" alignItems="center">
-              <Box as="span" ml="2" color="gray.600" fontSize="sm"></Box>
+              <Box p="6">
+                <Box display="flex" alignItems="baseline"></Box>
+
+                <Box>{d.title}</Box>
+              </Box>
             </Box>
-          </Box>
-        </Box>
-      </Flex>
-    </Flex>
+          ))}
+        </Grid>
+      </div>
+    </div>
   );
 }
