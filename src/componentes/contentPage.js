@@ -4,6 +4,7 @@ import {
   fotosGall,
   fotosAlmofadas,
   fotosAlmofadas1,
+  fotosAlmofadas2,
 } from '../componentes/gallStore.js';
 
 import {
@@ -39,6 +40,7 @@ export function Fotos() {
   const length = documentos.length;
   const totalAl = fotosAlmofadas.length;
   const totalAl1 = fotosAlmofadas1.length;
+  const totalAl2 = fotosAlmofadas2.length;
   console.log(totalAl);
   console.log(fotosAlmofadas);
 
@@ -196,30 +198,55 @@ export function Fotos() {
         Fotos Gall | Store | Almofadas 1 | Total {totalAl1}
       </Text>
       <div mt="15px" w="100%" className="listArea" overflowX="hidden">
-        <Grid templateColumns="repeat(5,1fr)" className="list">
-          {fotosAlmofadas1.map((d, index) => (
-            <Box key={index} maxW="100vh" borderWidth="1px" borderRadius="lg">
-              <Flex w="16rem" display="inline-block" className="item">
-                {/* {index === current && ( */}
-                <Image
-                  transition="all ease 0.2s"
-                  _hover={{ transform: 'scale(1)' }}
-                  transform="scale(0.9)"
-                  w="100%"
-                  src={d.imagem}
-                  alt={d.imagem}
-                />
-                {/* )} */}
-              </Flex>
+        {fotosAlmofadas1.map((d, index) => (
+          <Box
+            
+            textAlign="center"
+            key={index}
+            borderWidth="1px"
+            borderRadius="lg"
+          >
+            <Flex w="16rem" display="inline-block" className="item">
+              {/* {index === current && ( */}
+              <Image
+                transition="all ease 0.2s"
+                _hover={{ transform: 'scale(1)' }}
+                transform="scale(0.9)"
+                w="100%"
+                src={d.imagem}
+                alt={d.imagem}
+              />
+              {/* )} */}
+            </Flex>
+          </Box>
+        ))}
+      </div>
+      <Text mt="20px" fontSize="1.5rem" fontWeight="bold">
+        Fotos Gall | Store | Almofadas 2 | Total {totalAl2}
+      </Text>
+      <div mt="15px" w="100%" className="listArea" overflowX="hidden">
+        {fotosAlmofadas2.map((d, index) => (
+          <Box textAlign='center' key={index} maxW="100vh" borderWidth="1px" borderRadius="lg">
+            <Flex w="16rem" display="inline-block" className="item">
+              {/* {index === current && ( */}
+              <Image
+                transition="all ease 0.2s"
+                _hover={{ transform: 'scale(1)' }}
+                transform="scale(0.9)"
+                w="100%"
+                src={d.imagem}
+                alt={d.imagem}
+              />
+              {/* )} */}
+            </Flex>
 
-              <Box p="6">
-                <Box display="flex" alignItems="baseline"></Box>
+            <Box p="6">
+              <Box display="flex" alignItems="baseline"></Box>
 
-                <Box>{d.title}</Box>
-              </Box>
+              <Box>{d.title}</Box>
             </Box>
-          ))}
-        </Grid>
+          </Box>
+        ))}
       </div>
     </div>
   );

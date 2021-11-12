@@ -6,34 +6,39 @@
 
 :root {
   --white: #ffffff;
-  --gray-900:#1c1c1c;
+  --gray-900: #1c1c1c;
   --gray-800: #212529;
   --gray-500: #495057;
-  --gray-50:#c6c6c6;
-  --red: #E03131;
-  --red-50: #F03E3E;
-  --green: #82C91E;
-  --green-50: #94D82D;
+  --gray-50: #c6c6c6;
+  --red: #e03131;
+  --red-50: #f03e3e;
+  --green: #82c91e;
+  --green-50: #94d82d;
   --black: #000000;
-  --blue: #3B5BDB;
-  --purple: #8A2BE2;
+  --blue: #3b5bdb;
+  --purple: #8a2be2;
   --laranja: #f78f1e;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 2800px) {
   html {
-      font-size: 93.75%;
+    font-size: 93.75%;
+  }
+  .listArea{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
   }
 }
 
 @media (max-width: 720px) {
   html {
-      font-size: 87.5%;
+    font-size: 87.5%;
+  }
+  .listArea {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }
 }
-
-
-
 
 body,
 imput,
@@ -43,7 +48,7 @@ button {
   font: 400 1rem 'Roboto', sans-serif;
 }
 
-body{
+body {
   background: var(--gray-900);
   color: var(--white);
 }
