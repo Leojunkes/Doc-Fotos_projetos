@@ -39,6 +39,41 @@ export const fotosGall = [
     imagem: '/imagensGall/mocagall1.png',
     title: 'Pavão',
   },
+  {
+    id: 9,
+    imagem: '/gallCarrossel/arte.png',
+    
+  },
+  {
+    id: 10,
+    imagem: '/gallCarrossel/criatividade.png',
+    
+  },
+  {
+    id: 11,
+    imagem: '/gallCarrossel/diversidade.png',
+    
+  },
+  {
+    id: 12,
+    imagem: '/gallCarrossel/exclusividadeE.png',
+    
+  },
+  {
+    id: 13,
+    imagem: '/gallCarrossel/inspiração.png',
+   
+  },
+  {
+    id: 14,
+    imagem: '/gallCarrossel/natureza.png'
+    
+  },
+  {
+    id: 15,
+    imagem: '/gallCarrossel/sustentabilidade.png',
+    
+  },
 ];
 //  for(i=0;i<id;i++){
 //   i+1
