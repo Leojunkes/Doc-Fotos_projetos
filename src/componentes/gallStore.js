@@ -668,30 +668,37 @@ export const fotosCamisetas = [
   {
     id: 1,
     imagem: '/gallCamisetas/DSC01417-01.jpeg',
+    title: 'camisetaFlow',
   },
   {
     id: 2,
     imagem: '/gallCamisetas/DSC01419-01.jpeg',
+    title: 'amisetaFlow',
   },
   {
     id: 3,
     imagem: '/gallCamisetas/DSC01421-01-01.jpeg',
+    title: 'bamisetaFlow',
   },
   {
     id: 4,
     imagem: '/gallCamisetas/DSC01433-01.jpeg',
+    title: 'hamisetaFlow',
   },
   {
     id: 5,
     imagem: '/gallCamisetas/DSC01434-01.jpeg',
+    title: 'kamisetaFlow',
   },
   {
     id: 6,
     imagem: '/gallCamisetas/DSC01439-01.jpeg',
+    title: 'kamisetaFlow',
   },
   {
     id: 7,
     imagem: '/gallCamisetas/DSC01449-01-01.jpeg',
+    title: 'kamisetaFlow',
   },
   {
     id: 8,
@@ -768,5 +775,79 @@ export const fotosCamisetas = [
   {
     id: 26,
     imagem: '/gallCamisetas/DSC01512-01-01.jpeg',
+  },
+];
+export const fotosBolsas = [
+  {
+    id: 1,
+    imagem: '/gallBolsas/IMG_4417-20.jpg',
+  },
+  {
+    id: 2,
+    imagem: '/gallBolsas/IMG_4420-23.jpg',
+  },
+  {
+    id: 3,
+    imagem: '/gallBolsas/IMG_4433-30.jpg',
+  },
+  {
+    id: 4,
+    imagem: '/gallBolsas/IMG_5234-22.jpg',
+  },
+  {
+    id: 5,
+    imagem: '/gallBolsas/IMG_5289-68.jpg',
+  },
+  {
+    id: 6,
+    imagem: '/gallBolsas/IMG_20210806_102626104-01.jpeg',
+  },
+  {
+    id: 7,
+    imagem: '/gallBolsas/IMG_20210817_1.jpg',
+  },
+  {
+    id: 8,
+    imagem: '/gallBolsas/IMG_20210817.jpg',
+  },
+  {
+    id: 9,
+    imagem: '/gallBolsas/IMG_20210925_10.jpg',
+  },
+  {
+    id: 10,
+    imagem: '/gallBolsas/IMG_20210925_11.jpg',
+  },
+  {
+    id: 11,
+    imagem: '/gallBolsas/IMG_20210925_12.jpg',
+  },
+  {
+    id: 12,
+    imagem: '/gallBolsas/IMG_20210925_13.jpg',
+  },
+  {
+    id: 13,
+    imagem: '/gallBolsas/IMG_20210925.jpg',
+  },
+  {
+    id: 14,
+    imagem: '/gallBolsas/IMG_20211002.jpg',
+  },
+  {
+    id: 15,
+    imagem: '/gallBolsas/IMG_20211014_1.jpg',
+  },
+  {
+    id: 16,
+    imagem: '/gallBolsas/IMG_20211014.jpg',
+  },
+  {
+    id: 17,
+    imagem: '/gallBolsas/IMG_20211027_1.jpg',
+  },
+  {
+    id: 18,
+    imagem: '/gallBolsas/IMG_20211027.jpg',
   },
 ];

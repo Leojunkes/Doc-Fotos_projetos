@@ -12,11 +12,13 @@ import {
   Input,
 } from '@chakra-ui/react';
 import Link from 'next/link';
+import { useState } from 'react';
+import JSONDATA from '/MOCK_DATA.json';
 
 import { fotosCamisetas } from '../componentes/gallStore';
 
 export default function GallAmofadas() {
-  const [search, setSearch] = useState();
+  const [search, setSearch] = useState('');
   const length = fotosCamisetas.length;
   return (
     <>
@@ -34,21 +36,22 @@ export default function GallAmofadas() {
         }}
       />
       <Grid templateColumns="repeat(3,1fr)">
-        {fotosCamisetas
-          .filter((val) => {
-            if (search == '') {
-              return val;
-            }
-          })
-          .map((d, index) => (
+        {JSONDATA.filter((val) => {
+          if (search === '') {
+            return val;
+          } else if (val.title.toLowerCase().startsWith(search)) {
+            return val;
+          }
+        }).map((d, index) => {
+          return (
             <Box
               textAlign="center"
               key={index}
               borderWidth="1px"
               borderRadius="lg"
             >
-              {/* {index === current && ( */}
-              <Image
+              
+               <Image
                 transition="all ease 0.2s"
                 _hover={{ transform: 'scale(1)' }}
                 transform="scale(0.9)"
@@ -56,10 +59,12 @@ export default function GallAmofadas() {
                 src={d.imagem}
                 alt={d.imagem}
                 loading="lazy"
-              />
-              {/* )} */}
+              /> 
+              <Text>{d.title}</Text>
+              
             </Box>
-          ))}
+          );
+        })}
       </Grid>
     </>
   );

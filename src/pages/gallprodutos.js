@@ -63,9 +63,11 @@ export default function GallProdutos() {
             <Text>Gall Camisetas</Text>
           </Link>
         </Box>
-        <Box>
-          <Text>Gall Bolsas</Text>
-        </Box>
+        <Link href='/bolsas'>
+          <Box>
+            <Text>Gall Bolsas</Text>
+          </Box>
+        </Link>
       </SimpleGrid>
     </>
   );
