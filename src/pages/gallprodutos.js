@@ -16,34 +16,57 @@ import Link from 'next/link';
 
 export default function GallProdutos() {
   return (
-    <SimpleGrid
-      textAlign="center"
-      templateColumns="repeat(2,1fr)"
-      spacing=""
-      alignItems="center"
-      justifyContent="center"
-      minH="100vh"
-    >
-      <Box>
-        <Link href="/gallfotos">
-          <Button>
-            <Text>Gall Fotos</Text>
-          </Button>
-        </Link>
-      </Box>
-      <Box>
-        <Link href="/gallalmofadas">
-          <Button>
-            <Text>Gall Almofadas</Text>
-          </Button>
-        </Link>
-      </Box>
-      <Box>
-        <Text>Gall Camisetas</Text>
-      </Box>
-      <Box>
-        <Text>Gall Bolsas</Text>
-      </Box>
-    </SimpleGrid>
+    <>
+      <Link href="/">
+        <Button>Home</Button>
+      </Link>
+      <SimpleGrid
+        textAlign="center"
+        templateColumns="repeat(2,1fr)"
+        spacing=""
+        alignItems="center"
+        justifyContent="center"
+        minH="100vh"
+        cursor="pointer"
+      >
+        <Box>
+          <Link href="/gallfotos">
+            <Button>
+              <Text>Gall Fotos</Text>
+            </Button>
+          </Link>
+        </Box>
+        <Box>
+          <Link href="/gallalmofadas">
+            <Button>
+              <Text>Gall Almofadas</Text>
+            </Button>
+          </Link>
+          <Link href="/almofadas1">
+            <Button>
+              <Text>Gall Almofadas1</Text>
+            </Button>
+          </Link>
+          <Link href="/almofadas2">
+            <Button>
+              <Text>Gall Almofadas2</Text>
+            </Button>
+          </Link>
+          <Link href="/almofadas3">
+            <Button>
+              <Text>Gall Almofadas3</Text>
+            </Button>
+          </Link>
+        </Box>
+        <Box>
+          <Link href="/camisetas">
+            <Text>Gall Camisetas</Text>
+          </Link>
+        </Box>
+        <Box>
+          <Text>Gall Bolsas</Text>
+        </Box>
+      </SimpleGrid>
+    </>
   );
 }

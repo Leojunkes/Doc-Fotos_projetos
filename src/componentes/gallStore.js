@@ -42,37 +42,30 @@ export const fotosGall = [
   {
     id: 9,
     imagem: '/gallCarrossel/arte.png',
-    
   },
   {
     id: 10,
     imagem: '/gallCarrossel/criatividade.png',
-    
   },
   {
     id: 11,
     imagem: '/gallCarrossel/diversidade.png',
-    
   },
   {
     id: 12,
     imagem: '/gallCarrossel/exclusividadeE.png',
-    
   },
   {
     id: 13,
     imagem: '/gallCarrossel/inspiração.png',
-   
   },
   {
     id: 14,
-    imagem: '/gallCarrossel/natureza.png'
-    
+    imagem: '/gallCarrossel/natureza.png',
   },
   {
     id: 15,
     imagem: '/gallCarrossel/sustentabilidade.png',
-    
   },
 ];
 //  for(i=0;i<id;i++){
@@ -386,146 +379,394 @@ export const fotosAlmofadas1 = [
   },
 ];
 
-export const fotosAlmofadas2=[
+export const fotosAlmofadas2 = [
   {
-    id:1,
-    imagem:'/gallAlmofadas2/IMG_6213_.jpg'
+    id: 1,
+    imagem: '/gallAlmofadas2/IMG_6213_.jpg',
   },
   {
-    id:2,
-    imagem:'/gallAlmofadas2/IMG_6216_.jpg'
+    id: 2,
+    imagem: '/gallAlmofadas2/IMG_6216_.jpg',
   },
   {
-    id:3,
-    imagem:'/gallAlmofadas2/IMG_6218_.jpg'
+    id: 3,
+    imagem: '/gallAlmofadas2/IMG_6218_.jpg',
   },
   {
-    id:4,
-    imagem:'/gallAlmofadas2/IMG_6220_.jpg'
+    id: 4,
+    imagem: '/gallAlmofadas2/IMG_6220_.jpg',
   },
   {
-    id:5,
-    imagem:'/gallAlmofadas2/IMG_6222_.jpg'
+    id: 5,
+    imagem: '/gallAlmofadas2/IMG_6222_.jpg',
   },
   {
-    id:6,
-    imagem:'/gallAlmofadas2/IMG_6223_.jpg'
+    id: 6,
+    imagem: '/gallAlmofadas2/IMG_6223_.jpg',
   },
   {
-    id:7,
-    imagem:'/gallAlmofadas2/IMG_6226_.jpg'
+    id: 7,
+    imagem: '/gallAlmofadas2/IMG_6226_.jpg',
   },
   {
-    id:8,
-    imagem:'/gallAlmofadas2/IMG_6228_.jpg'
+    id: 8,
+    imagem: '/gallAlmofadas2/IMG_6228_.jpg',
   },
   {
-    id:9,
-    imagem:'/gallAlmofadas2/IMG_6229_.jpg'
+    id: 9,
+    imagem: '/gallAlmofadas2/IMG_6229_.jpg',
   },
   {
-    id:10,
-    imagem:'/gallAlmofadas2/IMG_6232_.jpg'
+    id: 10,
+    imagem: '/gallAlmofadas2/IMG_6232_.jpg',
   },
   {
-    id:11,
-    imagem:'/gallAlmofadas2/IMG_6233_.jpg'
+    id: 11,
+    imagem: '/gallAlmofadas2/IMG_6233_.jpg',
   },
   {
-    id:12,
-    imagem:'/gallAlmofadas2/IMG_6236_.jpg'
+    id: 12,
+    imagem: '/gallAlmofadas2/IMG_6236_.jpg',
   },
   {
-    id:13,
-    imagem:'/gallAlmofadas2/IMG_6239_.jpg'
+    id: 13,
+    imagem: '/gallAlmofadas2/IMG_6239_.jpg',
   },
   {
-    id:14,
-    imagem:'/gallAlmofadas2/IMG_6241_.jpg'
+    id: 14,
+    imagem: '/gallAlmofadas2/IMG_6241_.jpg',
   },
   {
-    id:15,
-    imagem:'/gallAlmofadas2/IMG_6243_.jpg'
+    id: 15,
+    imagem: '/gallAlmofadas2/IMG_6243_.jpg',
   },
   {
-    id:16,
-    imagem:'/gallAlmofadas2/IMG_6245_.jpg'
+    id: 16,
+    imagem: '/gallAlmofadas2/IMG_6245_.jpg',
   },
   {
-    id:17,
-    imagem:'/gallAlmofadas2/IMG_6246_.jpg'
+    id: 17,
+    imagem: '/gallAlmofadas2/IMG_6246_.jpg',
   },
   {
-    id:18,
-    imagem:'/gallAlmofadas2/IMG_6248_.jpg'
+    id: 18,
+    imagem: '/gallAlmofadas2/IMG_6248_.jpg',
   },
   {
-    id:19,
-    imagem:'/gallAlmofadas2/IMG_6250_.jpg'
+    id: 19,
+    imagem: '/gallAlmofadas2/IMG_6250_.jpg',
   },
   {
-    id:20,
-    imagem:'/gallAlmofadas2/IMG_6252_.jpg'
+    id: 20,
+    imagem: '/gallAlmofadas2/IMG_6252_.jpg',
   },
   {
-    id:21,
-    imagem:'/gallAlmofadas2/IMG_6253_.jpg'
+    id: 21,
+    imagem: '/gallAlmofadas2/IMG_6253_.jpg',
   },
   {
-    id:22,
-    imagem:'/gallAlmofadas2/IMG_6255_.jpg'
+    id: 22,
+    imagem: '/gallAlmofadas2/IMG_6255_.jpg',
   },
   {
-    id:23,
-    imagem:'/gallAlmofadas2/IMG_6257_.jpg'
+    id: 23,
+    imagem: '/gallAlmofadas2/IMG_6257_.jpg',
   },
   {
-    id:24,
-    imagem:'/gallAlmofadas2/IMG_6260_.jpg'
+    id: 24,
+    imagem: '/gallAlmofadas2/IMG_6260_.jpg',
   },
   {
-    id:25,
-    imagem:'/gallAlmofadas2/IMG_6262_.jpg'
+    id: 25,
+    imagem: '/gallAlmofadas2/IMG_6262_.jpg',
   },
   {
-    id:26,
-    imagem:'/gallAlmofadas2/IMG_6264_.jpg'
+    id: 26,
+    imagem: '/gallAlmofadas2/IMG_6264_.jpg',
   },
   {
-    id:27,
-    imagem:'/gallAlmofadas2/IMG_6266_.jpg'
+    id: 27,
+    imagem: '/gallAlmofadas2/IMG_6266_.jpg',
   },
   {
-    id:28,
-    imagem:'/gallAlmofadas2/IMG_6268_.jpg'
+    id: 28,
+    imagem: '/gallAlmofadas2/IMG_6268_.jpg',
   },
   {
-    id:29,
-    imagem:'/gallAlmofadas2/IMG_6269_.jpg'
+    id: 29,
+    imagem: '/gallAlmofadas2/IMG_6269_.jpg',
   },
   {
-    id:30,
-    imagem:'/gallAlmofadas2/IMG_6271_.jpg'
+    id: 30,
+    imagem: '/gallAlmofadas2/IMG_6271_.jpg',
   },
   {
-    id:31,
-    imagem:'/gallAlmofadas2/IMG_6273_.jpg'
+    id: 31,
+    imagem: '/gallAlmofadas2/IMG_6273_.jpg',
   },
   {
-    id:32,
-    imagem:'/gallAlmofadas2/IMG_6275_.jpg'
+    id: 32,
+    imagem: '/gallAlmofadas2/IMG_6275_.jpg',
   },
   {
-    id:33,
-    imagem:'/gallAlmofadas2/IMG_6277_.jpg'
+    id: 33,
+    imagem: '/gallAlmofadas2/IMG_6277_.jpg',
   },
   {
-    id:34,
-    imagem:'/gallAlmofadas2/IMG_6280_.jpg'
+    id: 34,
+    imagem: '/gallAlmofadas2/IMG_6280_.jpg',
   },
-  {
-    id:35,
-    imagem:'/gallAlmofadas2/IMG_6281_.jpg'
-  }
+];
 
-]
+export const fotosAlmofadas3 = [
+  {
+    id: 1,
+    imagem: '/gallAlmofadas3/IMG_6283_.jpg',
+  },
+  {
+    id: 2,
+    imagem: '/gallAlmofadas3/IMG_6286_.jpg',
+  },
+  {
+    id: 3,
+    imagem: '/gallAlmofadas3/IMG_6288_.jpg',
+  },
+  {
+    id: 4,
+    imagem: '/gallAlmofadas3/IMG_6289_.jpg',
+  },
+  {
+    id: 5,
+    imagem: '/gallAlmofadas3/IMG_6292_.jpg',
+  },
+  {
+    id: 6,
+    imagem: '/gallAlmofadas3/IMG_6295_.jpg',
+  },
+  {
+    id: 7,
+    imagem: '/gallAlmofadas3/IMG_6296_.jpg',
+  },
+  {
+    id: 8,
+    imagem: '/gallAlmofadas3/IMG_6299_.jpg',
+  },
+  {
+    id: 9,
+    imagem: '/gallAlmofadas3/IMG_6300_.jpg',
+  },
+  {
+    id: 10,
+    imagem: '/gallAlmofadas3/IMG_6302_.jpg',
+  },
+  {
+    id: 11,
+    imagem: '/gallAlmofadas3/IMG_6305_.jpg',
+  },
+  {
+    id: 12,
+    imagem: '/gallAlmofadas3/IMG_6308_.jpg',
+  },
+  {
+    id: 13,
+    imagem: '/gallAlmofadas3/IMG_6310_.jpg',
+  },
+  {
+    id: 14,
+    imagem: '/gallAlmofadas3/IMG_6312_.jpg',
+  },
+  {
+    id: 15,
+    imagem: '/gallAlmofadas3/IMG_6315_.jpg',
+  },
+  {
+    id: 16,
+    imagem: '/gallAlmofadas3/IMG_6317_.jpg',
+  },
+  {
+    id: 17,
+    imagem: '/gallAlmofadas3/IMG_6319_.jpg',
+  },
+  {
+    id: 18,
+    imagem: '/gallAlmofadas3/IMG_6323_.jpg',
+  },
+  {
+    id: 19,
+    imagem: '/gallAlmofadas3/IMG_6325_.jpg',
+  },
+  {
+    id: 20,
+    imagem: '/gallAlmofadas3/IMG_6327_.jpg',
+  },
+  {
+    id: 21,
+    imagem: '/gallAlmofadas3/IMG_6328_.jpg',
+  },
+  {
+    id: 22,
+    imagem: '/gallAlmofadas3/IMG_6332_.jpg',
+  },
+  {
+    id: 23,
+    imagem: '/gallAlmofadas3/IMG_6334_.jpg',
+  },
+  {
+    id: 24,
+    imagem: '/gallAlmofadas3/IMG_6336_.jpg',
+  },
+  {
+    id: 25,
+    imagem: '/gallAlmofadas3/IMG_6337_.jpg',
+  },
+  {
+    id: 26,
+    imagem: '/gallAlmofadas3/IMG_6341_.jpg',
+  },
+  {
+    id: 27,
+    imagem: '/gallAlmofadas3/IMG_6342_.jpg',
+  },
+  {
+    id: 28,
+    imagem: '/gallAlmofadas3/IMG_6345_.jpg',
+  },
+  {
+    id: 29,
+    imagem: '/gallAlmofadas3/IMG_6347_.jpg',
+  },
+  {
+    id: 30,
+    imagem: '/gallAlmofadas3/IMG_6350_.jpg',
+  },
+  {
+    id: 31,
+    imagem: '/gallAlmofadas3/IMG_6352_.jpg',
+  },
+  {
+    id: 32,
+    imagem: '/gallAlmofadas3/IMG_6354_.jpg',
+  },
+  {
+    id: 33,
+    imagem: '/gallAlmofadas3/IMG_6356_.jpg',
+  },
+  {
+    id: 34,
+    imagem: '/gallAlmofadas3/IMG_6357_.jpg',
+  },
+  {
+    id: 35,
+    imagem: '/gallAlmofadas3/IMG_6360_.jpg',
+  },
+  {
+    id: 35,
+    imagem: '/gallAlmofadas3/IMG_6363_.jpg',
+  },
+];
+export const fotosCamisetas = [
+  {
+    id: 1,
+    imagem: '/gallCamisetas/DSC01417-01.jpeg',
+  },
+  {
+    id: 2,
+    imagem: '/gallCamisetas/DSC01419-01.jpeg',
+  },
+  {
+    id: 3,
+    imagem: '/gallCamisetas/DSC01421-01-01.jpeg',
+  },
+  {
+    id: 4,
+    imagem: '/gallCamisetas/DSC01433-01.jpeg',
+  },
+  {
+    id: 5,
+    imagem: '/gallCamisetas/DSC01434-01.jpeg',
+  },
+  {
+    id: 6,
+    imagem: '/gallCamisetas/DSC01439-01.jpeg',
+  },
+  {
+    id: 7,
+    imagem: '/gallCamisetas/DSC01449-01-01.jpeg',
+  },
+  {
+    id: 8,
+    imagem: '/gallCamisetas/DSC01454-01.jpeg',
+  },
+  {
+    id: 9,
+    imagem: '/gallCamisetas/DSC01459-01.jpeg',
+  },
+  {
+    id: 10,
+    imagem: '/gallCamisetas/DSC01460-01.jpeg',
+  },
+  {
+    id: 11,
+    imagem: '/gallCamisetas/DSC01467-01.jpeg',
+  },
+  {
+    id: 12,
+    imagem: '/gallCamisetas/DSC01472-01.jpeg',
+  },
+  {
+    id: 13,
+    imagem: '/gallCamisetas/DSC01477-01.jpeg',
+  },
+  {
+    id: 14,
+    imagem: '/gallCamisetas/DSC01478-01.jpeg',
+  },
+  {
+    id: 15,
+    imagem: '/gallCamisetas/DSC01486-01.jpeg',
+  },
+  {
+    id: 16,
+    imagem: '/gallCamisetas/DSC01492-01.jpeg',
+  },
+  {
+    id: 17,
+    imagem: '/gallCamisetas/DSC01495-01.jpeg',
+  },
+  {
+    id: 18,
+    imagem: '/gallCamisetas/DSC01504-01-01.jpeg',
+  },
+  {
+    id: 19,
+    imagem: '/gallCamisetas/DSC01507-01-01.jpeg',
+  },
+  {
+    id: 20,
+    imagem: '/gallCamisetas/DSC01509-01-01.jpeg',
+  },
+  {
+    id: 21,
+    imagem: '/gallCamisetas/DSC01515-01-01.jpeg',
+  },
+  {
+    id: 22,
+    imagem: '/gallCamisetas/DSC01519-01-01.jpeg',
+  },
+  {
+    id: 23,
+    imagem: '/gallCamisetas/DSC01520-01-01.jpeg',
+  },
+  {
+    id: 24,
+    imagem: '/gallCamisetas/DSC01521-01-01-01.jpeg',
+  },
+  {
+    id: 25,
+    imagem: '/gallCamisetas/DSC01525-01-01.jpeg',
+  },
+  {
+    id: 26,
+    imagem: '/gallCamisetas/DSC01512-01-01.jpeg',
+  },
+];
