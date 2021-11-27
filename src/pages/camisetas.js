@@ -13,13 +13,15 @@ import {
 } from '@chakra-ui/react';
 import Link from 'next/link';
 import { useState } from 'react';
-import JSONDATA from '/MOCK_DATA.json';
+import JSONDATA from '/Mocks/MOCK_DATA.json';
 
 import { fotosCamisetas } from '../componentes/gallStore';
 
 export default function GallAmofadas() {
   const [search, setSearch] = useState('');
   const length = fotosCamisetas.length;
+  console.log(JSONDATA);
+  console.log(fotosCamisetas);
   return (
     <>
       <Text fontSize="20px" fontWeight="bold">
@@ -50,8 +52,7 @@ export default function GallAmofadas() {
               borderWidth="1px"
               borderRadius="lg"
             >
-              
-               <Image
+              <Image
                 transition="all ease 0.2s"
                 _hover={{ transform: 'scale(1)' }}
                 transform="scale(0.9)"
@@ -59,9 +60,8 @@ export default function GallAmofadas() {
                 src={d.imagem}
                 alt={d.imagem}
                 loading="lazy"
-              /> 
+              />
               <Text>{d.title}</Text>
-              
             </Box>
           );
         })}

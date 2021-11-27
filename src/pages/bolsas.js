@@ -19,7 +19,7 @@ import {
     return (
       <>
         <Text fontSize="20px" fontWeight="bold">
-          Almofadas 3 | {length} |{' '}
+          Bolsas | {length} |{' '}
           <Link href="/">
             <Button>Home</Button>
           </Link>

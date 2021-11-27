@@ -666,27 +666,27 @@ export const fotosAlmofadas3 = [
 ];
 export const fotosCamisetas = [
   {
-    id: 1,
+    id: '1',
     imagem: '/gallCamisetas/DSC01417-01.jpeg',
     title: 'camisetaFlow',
   },
   {
-    id: 2,
+    id: '2',
     imagem: '/gallCamisetas/DSC01419-01.jpeg',
     title: 'amisetaFlow',
   },
   {
-    id: 3,
+    id: '3',
     imagem: '/gallCamisetas/DSC01421-01-01.jpeg',
     title: 'bamisetaFlow',
   },
   {
-    id: 4,
+    id: '4',
     imagem: '/gallCamisetas/DSC01433-01.jpeg',
     title: 'hamisetaFlow',
   },
   {
-    id: 5,
+    id: '5',
     imagem: '/gallCamisetas/DSC01434-01.jpeg',
     title: 'kamisetaFlow',
   },
