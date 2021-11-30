@@ -25,7 +25,7 @@ export default function GallAmofadas() {
           <Button>Home</Button>
         </Link>
       </Text>
-      <Grid templateColumns="repeat(3,1fr)">
+      <Grid templateColumns="repeat(2,1fr)">
         {fotosAlmofadas1.map((d, index) => (
           <Box
             textAlign="center"

@@ -26,7 +26,7 @@ export default function GallAmofadas() {
         </Link>
       </Text>
 
-      <Grid templateColumns="repeat(3,1fr)" className="list">
+      <Grid templateColumns="repeat(2,1fr)" className="list">
         {fotosAlmofadas.map((d, index) => (
           <Box key={index} maxW="100vh" borderWidth="1px" borderRadius="lg">
             {/* {index === current && ( */}

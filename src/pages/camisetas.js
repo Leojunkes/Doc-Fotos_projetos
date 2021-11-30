@@ -37,7 +37,7 @@ export default function GallAmofadas() {
           setSearch(e.target.value);
         }}
       />
-      <Grid templateColumns="repeat(3,1fr)">
+      <Grid gap="8" templateColumns="repeat(2,1fr)">
         {JSONDATA.filter((val) => {
           if (search === '') {
             return val;
@@ -47,21 +47,21 @@ export default function GallAmofadas() {
         }).map((d, index) => {
           return (
             <Box
-              textAlign="center"
+              alignItems='center'
+              m='auto'
               key={index}
-              borderWidth="1px"
-              borderRadius="lg"
+              
             >
               <Image
                 transition="all ease 0.2s"
                 _hover={{ transform: 'scale(1)' }}
                 transform="scale(0.9)"
-                w="100%"
+                w="10s0%"
                 src={d.imagem}
                 alt={d.imagem}
                 loading="lazy"
               />
-              <Text>{d.title}</Text>
+              <Text textAlign='center'>{d.title}</Text>
             </Box>
           );
         })}

@@ -24,7 +24,7 @@ import {
             <Button>Home</Button>
           </Link>
         </Text>
-        <Grid templateColumns="repeat(3,1fr)">
+        <Grid templateColumns="repeat(2,1fr)">
           {fotosBolsas.map((d, index) => (
             <Box
               textAlign="center"
