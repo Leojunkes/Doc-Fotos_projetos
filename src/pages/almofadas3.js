@@ -37,7 +37,7 @@ export default function GallAmofadas() {
               transition="all ease 0.2s"
               _hover={{ transform: 'scale(1)' }}
               transform="scale(0.9)"
-              w="100%"
+              w='25rem'
               src={d.imagem}
               alt={d.imagem}
               loading="lazy"

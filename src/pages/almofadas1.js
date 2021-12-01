@@ -25,10 +25,12 @@ export default function GallAmofadas() {
           <Button>Home</Button>
         </Link>
       </Text>
-      <Grid templateColumns="repeat(2,1fr)">
+      <Grid templateColumns="repeat(3,1fr)">
         {fotosAlmofadas1.map((d, index) => (
           <Box
             textAlign="center"
+
+
             key={index}
             borderWidth="1px"
             borderRadius="lg"
@@ -42,6 +44,7 @@ export default function GallAmofadas() {
               alt={d.imagem}
               blurDataURL={d.imagem}
               loading="lazy"
+              w='20rem'
             />
             {/* )} */}
           </Box>
