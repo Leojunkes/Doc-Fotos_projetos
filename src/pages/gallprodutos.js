@@ -68,6 +68,7 @@ export default function GallProdutos() {
             <Text>Gall Bolsas</Text>
           </Box>
         </Link>
+        <Box color='gray.900'><Link href='/bolsasSf'><Button><Text>Gall Bolsas sem Fundo</Text></Button></Link></Box>
       </SimpleGrid>
     </>
   );

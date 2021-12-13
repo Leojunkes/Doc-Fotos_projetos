@@ -851,3 +851,139 @@ export const fotosBolsas = [
     imagem: '/gallBolsas/IMG_20211027.jpg',
   },
 ];
+
+
+export const fotosBolsasSemfundo = [
+  {
+    id: 1,
+    imagem: '/bolsasSemFundo/IMG_1111_.jpg',
+  },
+  {
+    id: 2,
+    imagem: '/bolsasSemFundo/IMG_1116_.jpg',
+  },
+  {
+    id: 3,
+    imagem: '/bolsasSemFundo/IMG_1118_.jpg',
+  },
+  {
+    id: 4,
+    imagem: '/bolsasSemFundo/IMG_1120_.jpg',
+  },
+  {
+    id: 5,
+    imagem: '/bolsasSemFundo/IMG_1122_.jpg',
+  },
+  {
+    id: 6,
+    imagem: '/bolsasSemFundo/IMG_1124_.jpg',
+  },
+  {
+    id: 7,
+    imagem: '/bolsasSemFundo/IMG_1126_.jpg',
+  },
+  {
+    id: 8,
+    imagem: '/bolsasSemFundo/IMG_1128_.jpg',
+  },
+  {
+    id: 9,
+    imagem: '/bolsasSemFundo/IMG_1131_.jpg',
+  },
+  {
+    id: 10,
+    imagem: '/bolsasSemFundo/IMG_1134_(1)_.jpg',
+  },
+  {
+    id: 11,
+    imagem: '/bolsasSemFundo/IMG_1136_.jpg',
+  },
+  {
+    id: 12,
+    imagem: '/bolsasSemFundo/IMG_1139_.jpg',
+  },
+  {
+    id: 13,
+    imagem: '/bolsasSemFundo/IMG_1140_.jpg',
+  },
+  {
+    id: 14,
+    imagem: '/bolsasSemFundo/IMG_1143_.jpg',
+  },
+  {
+    id: 15,
+    imagem: '/bolsasSemFundo/IMG_1145_.jpg',
+  },
+  {
+    id: 16,
+    imagem: '/bolsasSemFundo/IMG_1146_.jpg',
+  },
+  {
+    id: 17,
+    imagem: '/bolsasSemFundo/IMG_1150_.jpg',
+  },
+  {
+    id: 18,
+    imagem: '/bolsasSemFundo/IMG_1152_.jpg',
+  },
+  {
+    id: 19,
+    imagem: '/bolsasSemFundo/IMG_1153_.jpg',
+  },
+  {
+    id: 20,
+    imagem: '/bolsasSemFundo/IMG_1159_.jpg',
+  },
+  {
+    id: 21,
+    imagem: '/bolsasSemFundo/IMG_1161_.jpg',
+  },
+  {
+    id: 22,
+    imagem: '/bolsasSemFundo/IMG_1163_.jpg',
+  },
+  {
+    id: 23,
+    imagem: '/bolsasSemFundo/IMG_1165_.jpg',
+  },
+  {
+    id: 24,
+    imagem: '/bolsasSemFundo/IMG_1169_.jpg',
+  },
+  {
+    id: 25,
+    imagem: '/bolsasSemFundo/IMG_1171_.jpg',
+  },
+  {
+    id: 26,
+    imagem: '/bolsasSemFundo/IMG_1174_.jpg',
+  },
+  {
+    id: 27,
+    imagem: '/bolsasSemFundo/IMG_1176_.jpg',
+  },
+  {
+    id: 28,
+    imagem: '/bolsasSemFundo/IMG_1177_.jpg',
+  },
+  {
+    id: 29,
+    imagem: '/bolsasSemFundo/IMG_1179_.jpg',
+  },
+  {
+    id: 30,
+    imagem: '/bolsasSemFundo/IMG_1182_.jpg',
+  },
+  {
+    id: 31,
+    imagem: '/bolsasSemFundo/IMG_1183_.jpg',
+  },
+  {
+    id: 32,
+    imagem: '/bolsasSemFundo/IMG_1184_.jpg',
+  },
+  {
+    id: 33,
+    imagem: '/bolsasSemFundo/IMG_1187_.jpg',
+  },
+]
